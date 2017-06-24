@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+div#messages span{
+display: block;
+width: 80%;
+margin: 5px auto;
+text-align: center;
+padding: 5px;
+border-radius: 5px;
+}
+div#messages span.info {
+background: #7f7;
+}
+div#messages span.error {
+background: #d00;
+color: white;
+}
+
+textarea{  
+  /* box-sizing: padding-box; */
+  overflow:hidden;
+  /* demo only: */
+  padding:10px;
+  width:250px;
+  font-size:14px;
+  margin:50px auto;
+  display:block;
+  border-radius:10px;
+  border:6px solid #556677;
+}
